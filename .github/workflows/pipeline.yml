@@ -65,7 +65,7 @@ jobs:
           aws_secret_key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           application_name: api-pedidos
           environment_name: Api-pedidos-env
-          region: us-east-1
+          region: us-east-2
           deployment_package: api-pedidos.jar
           version_label: ${{ github.sha }}
 
